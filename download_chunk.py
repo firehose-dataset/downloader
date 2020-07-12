@@ -131,7 +131,7 @@ for filename in tqdm(filenames):
         item = id2item[in_json['id']]
         id2item[in_json['id']] = (item[0], item[1], item[2], preprocess(in_json['text'], tokenizer))
 
-updated_data = sorted(list(i2ditem.values()), key=lambda x: x[-2])
+updated_data = sorted(list(id2item.values()), key=lambda x: x[-2])
 data_dict['data'].update(updated_data)
 with open(output_filepath, 'wb') as fd:
   pickle.dump(data_dict, fd)
