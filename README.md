@@ -8,4 +8,4 @@ Please download the MetaData for the Firehose Datasets from [here](https://drive
 
 ### Contact
 
-If you have any question about the dataset, please contact Hexiang Hu (hexiang.frank.hu@gmail.com)
+If you have any question about the dataset (troubles in downloading the data), please contact Hexiang Hu (hexiang.frank.hu@gmail.com).
